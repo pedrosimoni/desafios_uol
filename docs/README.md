@@ -7,8 +7,6 @@ Welcome! This repository documents the projects I developed for UOL's challenges
 
 ## 🚀 Completed Projects
 
----
-
 ### 1. UOL Project 01: Web Server with Monitoring on AWS
 
 Configuration of an Nginx web server on AWS with a monitoring script that sends failure alerts to Discord.
@@ -19,8 +17,6 @@ Configuration of an Nginx web server on AWS with a monitoring script that sends 
     - Network infrastructure (VPC) and server (EC2) configured on AWS.
     - Bash script that checks the server's health every minute via Cron.
     - Automatic unavailability notifications sent to a Discord webhook.
-
----
 
 ### 2. UOL Project 02: Scalable Infrastructure for WordPress with Docker on AWS
 
