@@ -41,8 +41,6 @@ O diagrama do objetivo do projeto é o seguinte:
 - 6.[Configurações Finais](#6-configurações-finais)
 - 7.[Considerações Finais e Funcionamento](#7-condiderações-finais-e-funcionamento)
 
----
-
 ## 1. Configuração da Rede
 
 Nesta seção, vamos configurar a base de nossa infraestrutura de rede, criando uma VPC personalizada com sub-redes, tabelas de roteamento e gateways para garantir a comunicação e o isolamento adequados.
@@ -334,8 +332,6 @@ Para finalizar a configuração, é essencial validar a comunicação entre todo
 2.  **Teste o acesso via Bastion Host:** Conecte-se ao Bastion Host via SSH e, a partir dele, acesse uma das instâncias EC2 privadas para verificar a comunicação interna e a instalação dos serviços.
 3.  **Acesse a aplicação:** Obtenha o DNS do Application Load Balancer e acesse o site. A página de configuração do WordPress deve aparecer.
 4.  **Finalize a configuração do WordPress:** Complete a instalação do WordPress criando o seu usuário padrão e entrando tanto no painel do adm quanto verificando o site template.
-
----
 
 ## 7. Funcionamento e Considerações Finais
 
