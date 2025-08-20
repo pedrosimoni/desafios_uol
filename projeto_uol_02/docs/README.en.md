@@ -41,8 +41,6 @@ The project objective diagram is as follows:
 - 6.[Final Configurations](#6-final-configurations)
 - 7.[Final Considerations and Operation](#7-final-considerations-and-operation)
 
----
-
 ## 1. Network Configuration
 
 In this section, we will configure the foundation of our network infrastructure by creating a custom VPC with subnets, route tables, and gateways to ensure proper communication and isolation.
@@ -334,8 +332,6 @@ To finalize the configuration, it is essential to validate the communication bet
 2. **Test access via Bastion Host:** Connect to the Bastion Host via SSH and, from there, access one of the private EC2 instances to check internal communication and service installation.
 3. **Access the application:** Get the DNS of the Application Load Balancer and access the site. The WordPress configuration page should appear.
 4. **Finalize the WordPress configuration:** Complete the WordPress installation by creating your default user and logging in to both the admin panel and checking the template site.
-
----
 
 ## 7. Final Considerations and Operation
 
