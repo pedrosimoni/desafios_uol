@@ -1,30 +1,30 @@
 [![English](https://img.shields.io/badge/English-blue.svg)](README.en.md)
 [![Português](https://img.shields.io/badge/Português-green.svg)](README.md)
 
-# My UOL Programming Challenges
+# Meus Desafios de Programação UOL
 
-Welcome! This repository documents the projects I developed for UOL's challenges, with a focus on DevOps and Cloud.
+Bem-vindo! Este repositório documenta os projetos que desenvolvi para os desafios da UOL, com foco em DevOps e Cloud.
 
-## 🚀 Completed Projects
+## 🚀 Projetos Concluídos
 
-### 1. UOL Project 01: Web Server with Monitoring on AWS
+### 1. Projeto UOL 01: Servidor Web com Monitoramento na AWS
 
-Configuration of an Nginx web server on AWS with a monitoring script that sends failure alerts to Discord.
+Configuração de um servidor web Nginx na AWS com um script de monitoramento que envia alertas de falha para o Discord.
 
-- **🛠️ Technologies:** AWS (EC2, VPC), Nginx, Bash Script, Cron.
+- **🛠️ Tecnologias:** AWS (EC2, VPC), Nginx, Bash Script, Cron.
 
-- **Highlights:**
-    - Network infrastructure (VPC) and server (EC2) configured on AWS.
-    - Bash script that checks the server's health every minute via Cron.
-    - Automatic unavailability notifications sent to a Discord webhook.
+- **Destaques:**
+    - Infraestrutura de rede (VPC) e servidor (EC2) configurados na AWS.
+    - Script em Bash que verifica a saúde do servidor a cada minuto via Cron.
+    - Notificações automáticas de indisponibilidade enviadas para um webhook do Discord.
 
-### 2. UOL Project 02: Scalable Infrastructure for WordPress with Docker on AWS
+### 2. Projeto UOL 02: Infraestrutura Escalável para WordPress com Docker na AWS
 
-Creation of a high-availability and auto-scaling infrastructure on AWS to host a WordPress application in Docker containers.
+Criação de uma infraestrutura de alta disponibilidade e autoescalável na AWS para hospedar uma aplicação WordPress em containers Docker.
 
-- **🛠️ Technologies:** AWS (EC2, VPC, RDS, EFS, ALB, ASG), Docker, WordPress, CloudFormation.
+- **🛠️ Tecnologias:** AWS (EC2, VPC, RDS, EFS, ALB, ASG), Docker, WordPress, CloudFormation.
 
-- **Highlights:**
-    - Resilient architecture with a Load Balancer (ALB) and Auto Scaling Group (ASG).
-    - Data persisted in a managed database (RDS) and shared files on an elastic file system (EFS).
-    - Automated infrastructure provisioning with CloudFormation and User Data.
+- **Destaques:**
+    - Arquitetura resiliente com Load Balancer (ALB) e Auto Scaling Group (ASG).
+    - Dados persistidos em um banco de dados gerenciado (RDS) e arquivos compartilhados em um sistema de arquivos elástico (EFS).
+    - Provisionamento automatizado da infraestrutura com CloudFormation e User Data.
