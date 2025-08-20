@@ -1,0 +1,13 @@
+services:
+  wordpress:
+    image: wordpress
+    restart: always
+    ports:
+      - 80:80
+    environment:
+      WORDPRESS_DB_HOST: database-desafio-wordpress.c7cyq8wsifmj.us-east-2.rds.amazonaws.com:3306
+      WORDPRESS_DB_USER: admin
+      WORDPRESS_DB_PASSWORD: password
+      WORDPRESS_DB_NAME: db
+    volumes:
+      - /mnt/efs/wordpress:/var/www/html
